@@ -76,7 +76,8 @@ if [ -z "$lns_config" ]; then
 	show_help
 fi
 
-STATION_BIN="../../build-corecell-$variant/bin/station"
+#STATION_BIN="../../build-corecell-$variant/bin/station"
+STATION_BIN="../../build-rpi-$variant/bin/station"
 
 
 if [ -f "$STATION_BIN" ]; then
